@@ -134,9 +134,30 @@ git push -u origin master
 ```
 
 ### 4、启动静态资源
++ 构建静态资源，并传递到 Github。
 ```text
 mkdocs gh-deploy
 ```
+
++ 控制台输出如下内容
+```text
+INFO     -  Cleaning site directory
+INFO     -  Building documentation to directory: D:\project\MyDocs\site
+INFO     -  Documentation built in 0.17 seconds
+INFO     -  Copying 'D:\project\MyDocs\site' to 'gh-pages' branch and pushing to GitHub.
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (12/12), 1.79 KiB | 1.79 MiB/s, done.
+Total 12 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/lyh-man/MyDocs.git
+   265a0c4..cdb7f11  gh-pages -> gh-pages
+INFO     -  Your documentation should shortly be available at: https://lyh-man.github.io/MyDocs/
+```
+
++ 浏览器访问 `https://lyh-man.github.io/MyDocs/` ，即可查看文档。
 
 ## 五、自定义配置 (mkdocs.yml)
 ### 1、配置项目信息

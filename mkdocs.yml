@@ -1,0 +1,9 @@
+site_name: My Docs
+repo_url: https://gitee.com/lyh-man/my-docs.git
+nav:
+  - Home: 'index.md'
+  - Tool:
+    - './tool/MkDocs.md'
+    - './tool/windows-terminal.md'
+theme:
+  name: material

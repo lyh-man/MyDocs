@@ -115,7 +115,7 @@ mkdocs build --clean
 ### 2、push 代码到 GitHub
 + 配置 remote repository 
 ```text
-git remote add origin https://github.com/xxx/my-docs.git
+git remote add origin https://github.com/lyh-man/MyDocs.git
 git remote -v
 ``` 
 
@@ -129,7 +129,7 @@ git commit -m "build mkdocs"
 
 + push to remote
 ```text
-git push origin master
+git push -u origin master
 # git push -f --set-upstream origin master
 ```
 

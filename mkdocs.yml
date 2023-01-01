@@ -1,5 +1,5 @@
 site_name: My Docs
-repo_url: https://gitee.com/lyh-man/my-docs.git
+repo_url: https://github.com/lyh-man/MyDocs.git
 nav:
   - Home: 'index.md'
   - Tool:

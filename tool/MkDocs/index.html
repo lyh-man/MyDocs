@@ -475,6 +475,130 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PlantUML/" class="md-nav__link">
+        PlantUML
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Java
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Java" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Java
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Java/basic/basic-knowledge/" class="md-nav__link">
+        Java 基础知识
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          UML
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="UML" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          UML
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../UML/basic/" class="md-nav__link">
+        UML
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../UML/class-diagram/" class="md-nav__link">
+        类图
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -834,8 +958,32 @@ git commit -m &quot;build mkdocs&quot;
 # git push -f --set-upstream origin master
 </code></pre>
 <h3 id="4">4、启动静态资源</h3>
+<ul>
+<li>构建静态资源，并传递到 Github。</li>
+</ul>
 <pre><code class="language-text">mkdocs gh-deploy
 </code></pre>
+<ul>
+<li>控制台输出如下内容</li>
+</ul>
+<pre><code class="language-text">INFO     -  Cleaning site directory
+INFO     -  Building documentation to directory: D:\project\MyDocs\site
+INFO     -  Documentation built in 0.17 seconds
+INFO     -  Copying 'D:\project\MyDocs\site' to 'gh-pages' branch and pushing to GitHub.
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (12/12), 1.79 KiB | 1.79 MiB/s, done.
+Total 12 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/lyh-man/MyDocs.git
+   265a0c4..cdb7f11  gh-pages -&gt; gh-pages
+INFO     -  Your documentation should shortly be available at: https://lyh-man.github.io/MyDocs/
+</code></pre>
+<ul>
+<li>浏览器访问 <code>https://lyh-man.github.io/MyDocs/</code> ，即可查看文档。</li>
+</ul>
 <h2 id="mkdocsyml">五、自定义配置 (mkdocs.yml)</h2>
 <h3 id="1_2">1、配置项目信息</h3>
 <ul>

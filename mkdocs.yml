@@ -5,5 +5,11 @@ nav:
   - Tool:
     - './tool/MkDocs.md'
     - './tool/windows-terminal.md'
+    - './tool/PlantUML.md'
+  - Java:
+    - './Java/basic/basic-knowledge.md'
+  - UML:
+    - './UML/basic.md'
+    - './UML/class-diagram.md'
 theme:
   name: material

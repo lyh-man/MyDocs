@@ -6,6 +6,7 @@ nav:
     - './tool/MkDocs.md'
     - './tool/windows-terminal.md'
     - './tool/PlantUML.md'
+    - './tool/speed-up-github-access.md'
   - Java:
     - './Java/basic/basic-knowledge.md'
   - UML:

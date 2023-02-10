@@ -32,7 +32,7 @@ UML图本身是一组符号的规定，用于描述软件模型间各元素以�
 ```
 
 ### 3、好用的制作 UML 的工具
-+ [PlantUML](../tool/PlantUML.md)
++ [PlantUML](../tool/plant-uml.md)
 
 ## 二、用例图（Use Case Diagram）
 TODO

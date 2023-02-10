@@ -3,14 +3,14 @@ repo_url: https://github.com/lyh-man/MyDocs.git
 nav:
   - Home: 'index.md'
   - Tool:
-    - './tool/MkDocs.md'
+    - './tool/mk-docs.md'
     - './tool/windows-terminal.md'
-    - './tool/PlantUML.md'
+    - './tool/plant-uml.md'
     - './tool/speed-up-github-access.md'
   - Java:
-    - './Java/basic/basic-knowledge.md'
+    - './java/basic/basic-knowledge.md'
   - UML:
-    - './UML/basic.md'
-    - './UML/class-diagram.md'
+    - './uml/basic.md'
+    - './uml/class-diagram.md'
 theme:
   name: material

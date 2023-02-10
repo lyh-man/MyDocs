@@ -115,7 +115,7 @@ PlantUML 语法所需的关键词
     struct          struct
     @enduml
 ```
-![关键词](./img/PlantUML/class-diagram/keyword.png)
+![关键词](img/plant-uml/class-diagram/keyword.png)
 
 #### 1.2、元素之间的符号定义
 ```text
@@ -150,7 +150,7 @@ PlantUML 语法所需的关键词
     Class19 <--* Class20
     @enduml
 ```
-![关系](./img/PlantUML/class-diagram/association.png)
+![关系](img/plant-uml/class-diagram/association.png)
 
 #### 1.3、文字说明
 ```text
@@ -169,7 +169,7 @@ PlantUML 语法所需的关键词
     汽车 -- 人 : < 所属
     @enduml
 ```
-![文字说明](./img/PlantUML/class-diagram/caption.png)
+![文字说明](img/plant-uml/class-diagram/caption.png)
 
 #### 1.4、方法、属性
 ```text
@@ -196,4 +196,4 @@ PlantUML 语法所需的关键词
     }
     @enduml
 ```
-![方法、属性](./img/PlantUML/class-diagram/method.png)
+![方法、属性](img/plant-uml/class-diagram/method.png)

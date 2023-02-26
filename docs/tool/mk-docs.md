@@ -231,3 +231,15 @@ pip install mkdocs-material
 theme:
   name: material
 ```
+
++ [Material for MkDocs 更改导航样式](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/)
+```text
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.path
+    - navigation.top
+```

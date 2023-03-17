@@ -8,7 +8,12 @@ nav:
     - './tool/windows-terminal.md'
     - './tool/speed-up-github-access.md'
   - Java:
-    - './java/basic/basic-knowledge.md'
+    - './java/Readme.md'
+    - basic:
+      - './java/basic/basic.md'
+    - core:
+      - './java/core/Generics.md'
+      - './java/core/Reflection.md'
   - UML:
     - './uml/basic.md'
     - './uml/class-diagram.md'

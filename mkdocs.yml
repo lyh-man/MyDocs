@@ -24,6 +24,9 @@ nav:
     - './uml/basic.md'
     - './uml/class-diagram.md'
     - './uml/plant-uml.md'
+  - Network:
+    - './network/basic.md'
+    - './network/tcp.md'
   - WXMiniProgram:
     - Guide:
       - './wx-mini-program/basic.md'

@@ -1,40 +1,47 @@
 # Project informatio
 site_name: LYH Docs
 repo_url: https://github.com/lyh-man/MyDocs.git
+
 nav:
-  - MyDocs:
-    - './tool/mk-docs.md'
-  - Tool:
-    - './tool/windows-terminal.md'
-    - './tool/speed-up-github-access.md'
-  - Java:
-    - './java/Readme.md'
-    - basic:
-      - './java/basic/basic.md'
-    - core:
-      - './java/core/Generics.md'
-      - './java/core/Reflection.md'
-    - Spring:
-#      - Spring:
-#        - './java/spring/spring/basic.md'
-      - SprintBoot3:
-        - './java/spring/springboot3/basic.md'
-#        - './java/spring/springboot3/common-operation.md'
-  - UML:
-    - './uml/basic.md'
-    - './uml/class-diagram.md'
-    - './uml/plant-uml.md'
-  - Network:
-    - './network/basic.md'
-    - './network/tcp.md'
-  - WXMiniProgram:
-    - Guide:
-      - './wx-mini-program/basic.md'
+  - backend:
+    - Java:
+      - './backend/java/Readme.md'
+      - basic:
+        - './backend/java/basic/basic.md'
+      - core:
+        - './backend/java/core/Generics.md'
+        - './backend/java/core/Reflection.md'
+      - Spring:
+        - Spring:
+          - './backend/java/spring/spring/basic.md'
+        - SprintBoot3:
+          - './backend/java/spring/springboot3/basic.md'
+          - './backend/java/spring/springboot3/common-operation.md'
+  - frontend:
+    - WXMiniProgram:
+      - Guide:
+        - './frontend/wx-mini-program/basic.md'
+  - common:
+    - tools:
+      - MyDocs:
+        - './common/tool/mkdocs/mk-docs.md'
+      - speed-up-github-access:
+        - './common/tool/speed-up-github-access/speed-up-github-access.md'
+      - windows:
+        - './common/tool/windows/windows-terminal.md'
+    - UML:
+      - './common/uml/basic.md'
+      - './common/uml/class-diagram.md'
+      - './common/uml/plant-uml.md'
+    - Network:
+      - './common/network/basic.md'
+      - './common/network/tcp.md'
+
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.tracking
-    - navigation.path
-    - navigation.top
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.tracking
+  - navigation.path
+  - navigation.top

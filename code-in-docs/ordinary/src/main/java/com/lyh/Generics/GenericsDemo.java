@@ -1,4 +1,4 @@
-package com.lyh.docs.java.Generics;
+package com.lyh.Generics;
 
 import java.util.ArrayList;
 import java.util.List;

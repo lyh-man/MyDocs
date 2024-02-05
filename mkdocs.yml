@@ -18,24 +18,34 @@ nav:
           - './backend/java/spring/springboot3/basic.md'
           - './backend/java/spring/springboot3/common-operation.md'
   - frontend:
+    - Harmony:
+      - Typescript:
+        - './frontend/harmony/typescript/grammer.md'
     - WXMiniProgram:
-      - Guide:
-        - './frontend/wx-mini-program/basic.md'
+      - './frontend/wx-mini-program/basic.md'
   - common:
+    - Design-Pattern:
+      - './common/design-pattern/basic.md'
+    - Network:
+      - './common/network/basic.md'
+      - './common/network/tcp.md'
     - tools:
+      - Build-Automation:
+        - gradle:
+          - './common/tool/build-automation/gradle/basic.md'
+        - maven:
+          - './common/tool/build-automation/maven/createJavaProject.md'
       - MyDocs:
         - './common/tool/mkdocs/mk-docs.md'
-      - speed-up-github-access:
+      - Speed-Up-Github-Access:
         - './common/tool/speed-up-github-access/speed-up-github-access.md'
-      - windows:
+      - Windows:
         - './common/tool/windows/windows-terminal.md'
+
     - UML:
       - './common/uml/basic.md'
       - './common/uml/class-diagram.md'
       - './common/uml/plant-uml.md'
-    - Network:
-      - './common/network/basic.md'
-      - './common/network/tcp.md'
 
 theme:
   name: material

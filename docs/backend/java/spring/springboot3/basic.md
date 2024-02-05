@@ -1,4 +1,4 @@
-# 快速入门
+# 快速入门（SpringBoot 3.1.3）
 
 ## 一、前提
 ### 1.1、SprintBoot 使用版本
@@ -35,7 +35,10 @@
 ### 1.3、怎么用？ （举例：构建一个 HelloWorld 的 web 应用程序）
 + 构建一个 maven 项目
 ```text
+// 使用旧模板（1.0）
 mvn archetype:generate -DgroupId=com.lyh -DartifactId=spring-boot3-demo -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+// 使用新模板（1.4）
+mvn archetype:generate -DgroupId=com.lyh -DartifactId=spring-boot3-demo -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=RELEASE -DinteractiveMode=false
 ```
 
 + 修改 pom.xml，添加 parent

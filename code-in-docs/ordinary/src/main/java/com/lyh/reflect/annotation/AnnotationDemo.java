@@ -1,4 +1,4 @@
-package com.lyh.docs.java.reflect.annotation;
+package com.lyh.reflect.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
